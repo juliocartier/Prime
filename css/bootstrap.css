@@ -100,7 +100,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Lato',sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -118,13 +118,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont,"Lato","Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #403b3b;
+  background-color: #c0c0c0;
 }
 
 [tabindex="-1"]:focus {
@@ -3999,7 +3999,7 @@ tbody.collapse.show {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #FFD700;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
@@ -5055,7 +5055,7 @@ button.close {
   -ms-flex-direction: column;
       flex-direction: column;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #c0c0c0;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -8422,4 +8422,8 @@ a.text-dark:focus, a.text-dark:hover {
 
 #contatos{
     height: 250px;
+}
+
+.victoria {
+    padding-top: 76px;
 }
