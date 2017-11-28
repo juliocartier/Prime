@@ -124,7 +124,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #c0c0c0;
+  background-color: #2b2a2a;
 }
 
 [tabindex="-1"]:focus {
@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #C0C0C0;
 }
 
 abbr[title],
@@ -4000,6 +4001,7 @@ tbody.collapse.show {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #FFD700;
+  font-size: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
@@ -5055,7 +5057,7 @@ button.close {
   -ms-flex-direction: column;
       flex-direction: column;
   pointer-events: auto;
-  background-color: #c0c0c0;
+  background-color: #2b2a2a;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -5721,7 +5723,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #25282b !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {
@@ -6997,6 +6999,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 .mt-5,
 .my-5 {
   margin-top: 5rem !important;
+}
+
+.mt-6,
+.my-6 {
+  margin-top: 8rem !important;
 }
 
 .mr-5,
@@ -8426,4 +8433,8 @@ a.text-dark:focus, a.text-dark:hover {
 
 .victoria {
     padding-top: 76px;
+}
+
+.prata{
+  color: #C0C0C0;
 }
